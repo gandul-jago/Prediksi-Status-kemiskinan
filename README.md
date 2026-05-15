@@ -77,6 +77,7 @@ Dibuat 5 fitur gabungan baru dari kolom mentah:
 | False Negative (miskin salah prediksi) | 16 |
 
 Dari 896 data uji, model berhasil memprediksi dengan benar sebanyak 859 data (712 Tidak Miskin + 147 Miskin), dengan hanya 37 prediksi salah — 16 orang miskin yang luput, dan 21 orang tidak miskin yang salah dikategorikan.
+
 ---
 
 ## 🔍 SHAP — Faktor Penentu Kemiskinan
