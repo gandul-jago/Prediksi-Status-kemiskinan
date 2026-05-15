@@ -66,6 +66,7 @@ Dibuat 5 fitur gabungan baru dari kolom mentah:
 ---
 
 ## 📈 Hasil Evaluasi
+<img width="444" height="371" alt="image" src="https://github.com/user-attachments/assets/74ee2813-adff-4b82-b87b-62dfee1f4820" />
 
 ### Confusion Matrix
 |  | Prediksi Tidak Miskin | Prediksi Miskin |
@@ -83,6 +84,7 @@ Dibuat 5 fitur gabungan baru dari kolom mentah:
 ---
 
 ## 🔍 SHAP — Faktor Penentu Kemiskinan
+<img width="770" height="700" alt="image" src="https://github.com/user-attachments/assets/d9e12e2e-65c5-4df5-8ed5-3bb25fe5e6f2" />
 
 Berdasarkan analisis SHAP, fitur yang paling berpengaruh terhadap prediksi:
 
@@ -93,32 +95,6 @@ Berdasarkan analisis SHAP, fitur yang paling berpengaruh terhadap prediksi:
 5. `DMDEDUC2` — Tingkat pendidikan
 
 > Pendapatan per kapita **rendah** (biru) secara konsisten mendorong model memprediksi **Miskin**, dan sebaliknya.
-
----
-
-## 🗂️ Struktur File
-
-```
-├── data/
-│   ├── DEMO_J.xpt
-│   ├── BMX_J.xpt
-│   ├── BPX_J.xpt
-│   ├── DIQ_J.xpt
-│   ├── SMQ_J.xpt
-│   ├── PAQ_J.xpt
-│   └── DR1TOT_J.xpt
-├── Prediksi_Status_Kemiskinan_XGBoost_NHANES.ipynb
-└── README.md
-```
-
----
-
-## 🚀 Cara Menjalankan
-
-1. Upload semua file `.xpt` ke Google Drive
-2. Buka notebook di Google Colab
-3. Sesuaikan `folder_path` dengan lokasi file di Drive kamu
-4. Jalankan semua cell secara berurutan (`Runtime > Run all`)
 
 ---
 
