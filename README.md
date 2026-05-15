@@ -103,6 +103,5 @@ pandas, numpy, scikit-learn, xgboost, imbalanced-learn, shap, matplotlib, seabor
 
 ---
 
-## 👤 Author
 
 > Dibuat sebagai proyek analisis prediksi kemiskinan berbasis data kesehatan NHANES.
