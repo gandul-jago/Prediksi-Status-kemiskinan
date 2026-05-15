@@ -68,11 +68,6 @@ Dibuat 5 fitur gabungan baru dari kolom mentah:
 ## 📈 Hasil Evaluasi
 <img width="444" height="371" alt="image" src="https://github.com/user-attachments/assets/74ee2813-adff-4b82-b87b-62dfee1f4820" />
 
-### Confusion Matrix
-|  | Prediksi Tidak Miskin | Prediksi Miskin |
-|---|---|---|
-| **Aktual Tidak Miskin** | 712 ✅ | 21 ❌ |
-| **Aktual Miskin** | 16 ❌ | 147 ✅ |
 
 ### Metrik Utama
 | Metrik | Nilai |
@@ -81,6 +76,7 @@ Dibuat 5 fitur gabungan baru dari kolom mentah:
 | Optimal Threshold | 0.5745 |
 | False Negative (miskin salah prediksi) | 16 |
 
+Dari 896 data uji, model berhasil memprediksi dengan benar sebanyak 859 data (712 Tidak Miskin + 147 Miskin), dengan hanya 37 prediksi salah — 16 orang miskin yang luput, dan 21 orang tidak miskin yang salah dikategorikan.
 ---
 
 ## 🔍 SHAP — Faktor Penentu Kemiskinan
